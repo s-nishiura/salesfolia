@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.18.3/.schema/devbox.schema.json",
+  "packages": [
+    "act@latest",
+    "actionlint@latest",
+    "gh@latest",
+    "jq@latest",
+    "lefthook@latest",
+    "mise@latest",
+    "pinact@latest",
+    "postgresql@18",
+    "vips@latest",
+    "watchman@latest",
+    "yamllint@latest"
+  ],
+  "shell": {
+    "init_hook": ["mise install"],
+    "scripts": {}
+  }
+}

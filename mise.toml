@@ -1,0 +1,4 @@
+[tools]
+bun = "1.4"
+node = "lts"
+ruby = "4.0"
