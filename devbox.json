@@ -14,7 +14,7 @@
     "yamllint@latest"
   ],
   "shell": {
-    "init_hook": ["mise install"],
+    "init_hook": ["mise install", "bin/setup --skip-server"],
     "scripts": {}
   }
 }
